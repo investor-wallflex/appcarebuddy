@@ -1,0 +1,82 @@
+.care-buddy-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+  .loaderpage{
+    color: #2263e1;
+    font-size: 24px;
+    
+  }
+
+  .carespan{
+    background-color:#2263e1 ;
+    color: white;
+    padding: 0px 10px;
+    
+  }
+
+  .spandiv{
+    padding-top: 40px;
+  }
+  .skip-button {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .content h1 {
+    font-size: 24px;
+    color: #2263e1;
+  }
+  
+  .content p {
+    margin-top: 10px;
+    color: #34495e;
+  }
+  
+  .navigation {
+    margin: 20px 0;
+  }
+  
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background: #ddd;
+    border-radius: 50%;
+  }
+  
+  .dot.active {
+    background: #007bff;
+  }
+  
+  .next-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .next-button:hover {
+    background: #0056b3;
+  }
+  
